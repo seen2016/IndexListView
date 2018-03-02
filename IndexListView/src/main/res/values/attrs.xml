@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideView">
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="unSelectColor" format="color"/>
+        <attr name="textBold" format="boolean"/>
+        <attr name="textStyle">
+            <enum name="DEFAULT" value="1"/>
+            <enum name="DEFAULT_BOLD" value="2"/>
+            <enum name="SANS_SERIF" value="3"/>
+            <enum name="SERIF" value="4"/>
+            <enum name="MONOSPACE" value="5"/>
+        </attr>
+    </declare-styleable>
+    
+</resources>
